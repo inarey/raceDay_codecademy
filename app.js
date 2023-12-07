@@ -5,7 +5,7 @@ let raceNumber = Math.floor(Math.random() * 1000);
 const registeredEarly = true;
 //Check if the runner is adult or youth
 const runnerAge = 17;
-//Control flow to check whether the runner is an adult and registered early
+//Adults who registeredEarly received a race number above 1000...Control flow to check whether the runner is an adult and registered early
 if (runnerAge > 18 && registeredEarly) {
   raceNumber += 1000;
 }
